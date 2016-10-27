@@ -14,6 +14,8 @@
 
 - (IBAction) btnMoveTo:(id)sender;
 - (IBAction) btnDowUnder:(id)sender;
+- (IBAction)btnZoom:(id)sender;
+- (IBAction) btnHUD:(id)sender;
 
 @end
 

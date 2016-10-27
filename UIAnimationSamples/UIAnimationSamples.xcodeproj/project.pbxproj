@@ -18,6 +18,9 @@
 		9AE9EDC01DC20E0F002F2BCA /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9EDBF1DC20E0F002F2BCA /* arrow1.png */; };
 		9AE9EDC31DC21698002F2BCA /* AnimationCurvePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9EDC21DC21698002F2BCA /* AnimationCurvePicker.m */; };
 		9AE9EDC71DC216E4002F2BCA /* AnimationCurvePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9EDC61DC216E4002F2BCA /* AnimationCurvePicker.xib */; };
+		F459477C1DC2511100BC512E /* FakeHUD.png in Resources */ = {isa = PBXBuildFile; fileRef = F459477B1DC2511100BC512E /* FakeHUD.png */; };
+		F459477E1DC2513100BC512E /* FakeHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F459477D1DC2513100BC512E /* FakeHUD.xib */; };
+		F45947811DC2517200BC512E /* FakeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F45947801DC2517200BC512E /* FakeHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,10 @@
 		9AE9EDC11DC21698002F2BCA /* AnimationCurvePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCurvePicker.h; sourceTree = "<group>"; };
 		9AE9EDC21DC21698002F2BCA /* AnimationCurvePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCurvePicker.m; sourceTree = "<group>"; };
 		9AE9EDC61DC216E4002F2BCA /* AnimationCurvePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationCurvePicker.xib; sourceTree = "<group>"; };
+		F459477B1DC2511100BC512E /* FakeHUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FakeHUD.png; sourceTree = "<group>"; };
+		F459477D1DC2513100BC512E /* FakeHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FakeHUD.xib; sourceTree = "<group>"; };
+		F459477F1DC2517200BC512E /* FakeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHUD.h; sourceTree = "<group>"; };
+		F45947801DC2517200BC512E /* FakeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +77,7 @@
 		9AE9EDA11DC208E0002F2BCA /* UIAnimationSamples */ = {
 			isa = PBXGroup;
 			children = (
+				F459477B1DC2511100BC512E /* FakeHUD.png */,
 				9AE9EDBF1DC20E0F002F2BCA /* arrow1.png */,
 				9AE9EDA51DC208E0002F2BCA /* AppDelegate.h */,
 				9AE9EDA61DC208E0002F2BCA /* AppDelegate.m */,
@@ -86,6 +94,9 @@
 				9AE9EDC11DC21698002F2BCA /* AnimationCurvePicker.h */,
 				9AE9EDC21DC21698002F2BCA /* AnimationCurvePicker.m */,
 				9AE9EDC61DC216E4002F2BCA /* AnimationCurvePicker.xib */,
+				F459477F1DC2517200BC512E /* FakeHUD.h */,
+				F45947801DC2517200BC512E /* FakeHUD.m */,
+				F459477D1DC2513100BC512E /* FakeHUD.xib */,
 			);
 			path = UIAnimationSamples;
 			sourceTree = "<group>";
@@ -156,7 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F459477C1DC2511100BC512E /* FakeHUD.png in Resources */,
 				9AE9EDB51DC208E0002F2BCA /* LaunchScreen.storyboard in Resources */,
+				F459477E1DC2513100BC512E /* FakeHUD.xib in Resources */,
 				9AE9EDC01DC20E0F002F2BCA /* arrow1.png in Resources */,
 				9AE9EDC71DC216E4002F2BCA /* AnimationCurvePicker.xib in Resources */,
 				9AE9EDB21DC208E0002F2BCA /* Assets.xcassets in Resources */,
@@ -177,6 +190,7 @@
 				9AE9EDA71DC208E0002F2BCA /* AppDelegate.m in Sources */,
 				9AE9EDB01DC208E0002F2BCA /* UIAnimationSamples.xcdatamodeld in Sources */,
 				9AE9EDA41DC208E0002F2BCA /* main.m in Sources */,
+				F45947811DC2517200BC512E /* FakeHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +345,7 @@
 				9AE9EDBB1DC208E0002F2BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
