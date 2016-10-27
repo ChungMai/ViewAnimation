@@ -18,4 +18,13 @@
 }
 */
 
++ (id) newAnimationCurvePicker:(id)pickDelegate{
+    UINib *nib = [UINib nibWithNibName:@"AnimationCurvePicker" bundle:nil];
+    NSArray *nibArray = [nib instantiateWithOwner:self options:nil];
+    AnimationCurvePicker *me = [nibArray objectAtIndex: 0];;
+    me.animationlist.dataSource = pickDelegate;
+    me.animationlist.delegate = pickDelegate;
+    return me;
+}
+
 @end
